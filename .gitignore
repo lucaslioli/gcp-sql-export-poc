@@ -1,3 +1,6 @@
+key/*
+keys/*
+
 # # # Terraform # # #
 
 # Local .terraform directories
@@ -34,6 +37,9 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Added here as it is a POC for study purposes
+.terraform.lock.hcl
 
 # # # Python # # #
 
