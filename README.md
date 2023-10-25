@@ -6,7 +6,7 @@ This a study case project to manage GCP resources using Terraform, populate a Cl
 1. [Install Docker](https://docs.docker.com/engine/install/)
 2. [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/gcp-get-started/install-cli)
 3. [Install Google Cloud CLI](https://cloud.google.com/sdk/docs/install#windows)
-    3.1  After authenticate with `gcloud`, run the `gcloud auth configure-docker`
+   - After authenticate with `gcloud`, run the `gcloud auth configure-docker`
 
 
 ## Commands
