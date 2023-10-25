@@ -1,0 +1,7 @@
+project             = "project-id"
+credentials_file    = "./key/keyfile.json"
+db_user             = "admin"
+db_password         = "admin"
+workflow_names      = ["movies_export_workflow"]
+bucket_name         = "movies-export-bucket"
+bucket_file         = "./data/movies_ddl.sql"
