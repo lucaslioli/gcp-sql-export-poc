@@ -1,0 +1,7 @@
+pymysql
+pandas
+sqlalchemy
+python-dotenv
+cloud-sql-python-connector[pymysql]
+google-api-python-client
+google-cloud-logging
