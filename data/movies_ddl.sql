@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS movies (
+    id integer NOT NULL,
+    title text NOT NULL,
+    genres text NOT NULL,
+    original_language text NOT NULL,
+    overview text NOT NULL,
+    popularity text NOT NULL,
+    production_companies text NOT NULL,
+    release_date text NOT NULL,
+    budget text NOT NULL,
+    revenue text NOT NULL,
+    runtime text NOT NULL,
+    status text NOT NULL,
+    tagline text NOT NULL,
+    vote_average text NOT NULL,
+    vote_count text NOT NULL,
+    credits text NOT NULL,
+    keywords text NOT NULL,
+    poster_path text NOT NULL,
+    backdrop_path text NOT NULL,
+    recommendations text NOT NULL,
+    PRIMARY KEY (id)
+);
