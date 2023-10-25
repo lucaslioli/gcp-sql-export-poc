@@ -12,7 +12,7 @@ This a study case project to manage GCP resources using Terraform, populate a Cl
 ## Commands
 
 Inside the repository folder run `terraform init` to initialize the Terraform project.
-Then change the directory to the `job` folder and run the following commands to build and push the docker image to GCP.
+Then run the following commands to build and push the docker image to GCP.
 
 ```
 $ docker build -t gcr.io/[PROJECT_ID]/[IMAGE_NAME]:[TAG] .
